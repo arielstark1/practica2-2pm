@@ -27,16 +27,16 @@
 
                 <div class="form-row">
                     <div class="col-md-5 mb-3">
-                        <label for="validationServer01">Card</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01"
+                        <label for="validationServer01">Card #</label>
+                        <input type="text" class="form-control " id="validationServer01"
                             placeholder="XXXXXXXXXXXXXXXX" value="" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label for="validationServer02">Cvc</label>
-                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="0000"
+                        <label for="validationServer02">CVC #</label>
+                        <input type="text" class="form-control " id="validationServer02" placeholder="0000"
                             value="" required>
                         <div class="valid-feedback">
                             Looks good!
@@ -51,7 +51,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="inputGroupPrepend3">$</span>
                             </div>
-                            <input type="text" class="form-control is-invalid" id="validationServerUsername"
+                            <input type="text" class="form-control " id="validationServerUsername"
                                 placeholder="Amount" aria-describedby="inputGroupPrepend3" required>
                         </div>
                     </div>
@@ -60,14 +60,14 @@
 
                     <div class="col-md-6 mb-3">
                         <label for="validationServer01">First name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01"
+                        <input type="text" class="form-control " id="validationServer01"
                             placeholder="First name" value="" required>
 
                     </div>
 
                     <div class="col-md-6 mb-3">
                         <label for="validationServer02">Last name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name"
+                        <input type="text" class="form-control " id="validationServer02" placeholder="Last name"
                             value="" required>
 
                     </div>
@@ -77,53 +77,57 @@
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="validationServer03">City</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder=""
+                        <input type="text" class="form-control " id="validationServer03" placeholder=""
                             required>
 
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="validationCustom04">State</label>
                         <select class="custom-select" id="validationCustom04" required>
-                            <option selected disabled value="">Choose...</option>
+                            <option selected disabled value="">Pick a state</option>
                             <option>...</option>
                         </select>
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="validationServer05">Postal code</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder=""
+                        <input type="text" class="form-control " id="validationServer05" placeholder=""
                             required>
 
                     </div>
                 </div>
 
                 <div class="form-row">
-                   <div class="col-md-6">
+                    <div class="col-md-6">
 
-                    <div class="form-group">
+                        <div class="form-group">
 
-                        <div class="form-check">
+                            <div class="form-check alert alert-secondary">
 
-                            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
-                                required>
-                            <label class="form-check-label" for="invalidCheck3">
-                                <i class="fab fa-cc-mastercard "></i>
+                                <input class="formulario " type="checkbox" value="" id="invalidCheck3"
+                                    required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                    <i class="fab fa-cc-mastercard "></i>
+                                <input class="formulario " type="checkbox" value="" id="invalidCheck3"
+                                    required>    
+                                    <i class="fab fa-cc-visa"></i>
+                                <input class="formulario " type="checkbox" value="" id="invalidCheck3"
+                                    required>
+                                    <i class="fas fa-adjust"></i>
+                                <input class="formulario " type="checkbox" value="" id="invalidCheck3"
+                                    required>
+                                    <i class="fab fa-cc-amex"></i>
+                                </label>
 
-                                <i class="fab fa-cc-visa"></i>
+                            </div>
 
-                                <i class="fas fa-adjust"></i>
-
-                                <i class="fab fa-cc-amex"></i>
-                            </label>
 
                         </div>
 
-
                     </div>
-
-                   </div>
                     <div class="col-md-6 mb-6">
                         <label for="validationServer05">Mensaje</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control is-invalid"></textarea>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                            class="form-control "></textarea>
                     </div>
 
 
